@@ -45,6 +45,10 @@ return [
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],
 
+        'ohmysmtp' => [
+            'transport' => 'oh-my-smtp',
+        ],
+
         'ses' => [
             'transport' => 'ses',
         ],
